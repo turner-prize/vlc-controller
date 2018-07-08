@@ -8,7 +8,6 @@ def windowEnumerationHandler(hwnd, top_windows):
 	top_windows.append((hwnd, win32gui.GetWindowText(hwnd)))
 
 def VLCPlayPause():
-	results = []
 	top_windows = []
 	win32gui.EnumWindows(windowEnumerationHandler, top_windows)
 	for i in top_windows:
