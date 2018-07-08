@@ -11,6 +11,9 @@ Each request will trigger:
   b) sends a virtual space bar event which pauses or continues playback on VLC.
 
 
-Fritzing Diagram for ESP8266 hookup
-:
+Fritzing Diagram for ESP8266 hookup:
+
+
+
+
 ![alt text](https://github.com/turner-prize/vlc-controller/blob/master/esp8266-sketch/breadboard-diagram_bb.png?raw=true)
